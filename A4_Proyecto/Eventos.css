@@ -1,0 +1,110 @@
+*{
+    margin: 1rem;
+    box-sizing: border-box;
+    border-radius: 2.5rem;
+}
+
+*::selection{
+    background-color: red;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+#titulo2::before,#titulo2::after{
+    content:"''";
+    margin: 0.5rem;
+    border: 0.1rem solid black;
+    border-radius: 10px;
+}
+
+a {
+  background-color: black;
+  color:white;
+  text-decoration:none;
+  float: left;
+  width: 10%;
+  text-align: center;
+  padding: 1rem;
+  margin: 0rem 0rem 0rem 0.5rem;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main{
+    padding: 1rem;
+    background-image: linear-gradient(to 
+    bottom, rgb(35, 149, 255),rgb(255, 255, 255));
+}
+
+article{
+    margin-top: 5rem;
+    font-size: 1.5em;
+    text-align: justify;
+    column-count: 2;
+    column-gap: 2em;
+    column-rule: 0.3rem solid brown;
+}
+
+p::first-letter{
+    font-size: 3em;
+    color: rgb(75, 255, 156);
+}
+
+p::first-line{
+    color: rgb(87, 193, 255);
+}
+
+
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .responsive {
+    padding: 0 0.6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 70rem) {
+    .responsive {
+      width: 49.99999%;
+      margin: 0.6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 50rem) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

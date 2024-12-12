@@ -1,0 +1,44 @@
+*{
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+
+body{
+    background-image: 
+    url(Imagenes/Fondo\ 2.png);
+    background-position: center 
+    center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: grey;
+}
+
+video{
+    padding-top: 15rem;
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0rem;
+}
+
+p{
+    font-size: 2rem;
+    background-color: aqua;
+}
+
+

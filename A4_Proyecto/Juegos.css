@@ -1,0 +1,92 @@
+*{
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.grid{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 1rem;
+}
+
+.grid img{
+    width: 60%;
+    border: 0.3rem;
+    margin: auto;
+    height: 100%;
+}
+
+.image_sus {
+    height: 20rem;
+    width: 20rem;
+}
+
+a {
+    background-color: black;
+    color:white;
+    text-decoration:none;
+    float: left;
+    width: 10%;
+    text-align: center;
+    padding: 1rem;
+    margin: 0rem 0rem 0rem 0.5rem;
+  }
+
+h1{
+    padding-top: 2rem;
+    font-style: italic;
+    color:brown;
+    
+}
+
+img{
+ transition: all 0.4s linear;   
+}
+
+img:hover{
+transform: scale(0.9);
+}
+
+table{
+    background-image:
+    linear-gradient(to bottom,
+    rgba(0, 0, 255, 0.51), rgb(167, 253, 239));
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin: auto;
+    width: 20%;
+    margin-top: 1rem;
+    caption-side: bottom;
+}
+
+caption{
+    margin: 1rem;
+}
+
+th{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+td{
+    text-align: center; 
+    padding: 1rem;
+}
+
+tr {
+    width: 10rem;
+    height: 5rem;
+}
